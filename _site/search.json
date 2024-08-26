@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Welcome!\nSharing what I learn helps me learn better. I aim to document my intellectual odyssey on this blog! To learn more about me, refer to the About Page."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a CS senior at LUMS and a Machine Learning Researcher at Centre for Speech and Language Technologies (CSaLT).\nI revel in contributing towards the deployment of large networks on small GPUs so that more people can enjoy the wonders of scaled up nerual nets."
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About",
+    "section": "My Interests",
+    "text": "My Interests\n\nModel Compression: Pruning, Distillation, Quantisation and PEFT methods among other techniques.\nRepresentation Learning: Methods ranging from the classic word2vec to the modern CLIP embeddings.\nRetrieval Augmented Systems: Building custom RAG pipelines and Agentic frameworks to accomplish complex reasoning tasks (refer to the DataSci Chatbot project in my Resume)\nModern DNN Architectures: SOTA architectures such as MoE models, Diffusion Models, and more recently hybrid state space models such as Mamba.\nGeneral Stuff: Topics in Quantitative Finance (reading up on various intuitive derivations of Black-Scholes is a guilty pleasure) and more recently Theoretical Neuroscience."
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "About",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nML Researcher at CSaLT (Sep 2023 - Present)\nFreelance ML Engineer (Jul 2024 - Aug 2024)\nML Engineer at Whichdraft (Jan 2023 - Jan 2024)\nML Engineer at Data Solutions (Mar 2023 - Apr 2023)\nML Engineer at Enviro AI (Jan 2023 - Feb 2023)\n\nRefer to my Resume for a more detailed overview of my work."
+  },
+  {
+    "objectID": "about.html#miscellaneous-intersts",
+    "href": "about.html#miscellaneous-intersts",
+    "title": "About",
+    "section": "Miscellaneous Intersts",
+    "text": "Miscellaneous Intersts\nMy nerdy passions aside, I find comfort in\n\nListening to classical music (be it Chopin’s tristesse or Ustad Farid Ayaz’s Qawwalis).\nLifting weights in the gym.\nPlaying and avidly watching cricket.\nCaring for my two lovely cats and one mischievous kitten."
+  },
+  {
+    "objectID": "about.html#whats-ahead-for-me",
+    "href": "about.html#whats-ahead-for-me",
+    "title": "About",
+    "section": "What’s Ahead for Me",
+    "text": "What’s Ahead for Me\nIn the upcoming Fall Semester, I will be preoccupied with the following:\n\nTAing the Machine Learning Course at LUMS (CS 535).\nWriting a paper hopefully to be submitted at ICLR ’25.\nEnjoying the Advanced Topics in ML course that will mainly revolve around Represenation Learning (yay!)\nAnd last but not the least, sharing my learnings with you all!"
+  }
+]

@@ -1,0 +1,77 @@
+---
+title: "About"
+image: files/profile.jpg
+about:
+  template: solana
+  image-shape: round
+  image-width: 20em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/muhammad-khaquan-8601b6226/
+    - icon: github
+      text: Github
+      href: https://github.com/KhaquanS/
+    - icon: book
+      text: Resume
+      href: files/resume.pdf
+---
+
+I am a CS senior at LUMS and a Machine Learning Researcher at Centre for Speech and Language Technologies (CSaLT).
+
+I revel in contributing towards the deployment of large networks on small GPUs so that more people can enjoy the wonders of scaled up nerual nets. 
+
+___
+
+## My Interests
+
+- **Model Compression:**
+Pruning, Distillation, Quantisation and PEFT methods among other techniques. 
+
+- **Representation Learning:**
+Methods ranging from the classic word2vec to the modern CLIP embeddings.
+
+- **Retrieval Augmented Systems:**
+Building custom RAG pipelines and Agentic frameworks to accomplish complex reasoning tasks (refer to the DataSci Chatbot project in my [Resume](files/resume.pdf))
+
+- **Modern DNN Architectures:**
+SOTA architectures such as MoE models, Diffusion Models, and more recently hybrid state space models such as Mamba.
+
+- **General Stuff:**
+Topics in Quantitative Finance (reading up on various intuitive derivations of Black-Scholes is a guilty pleasure) and more recently Theoretical Neuroscience.
+
+___
+
+## Professional Experience
+
+- ML Researcher at CSaLT (Sep 2023 - Present)
+- Freelance ML Engineer (Jul 2024 - Aug 2024)
+- ML Engineer at Whichdraft (Jan 2023 - Jan 2024)
+- ML Engineer at Data Solutions (Mar 2023 - Apr 2023)
+- ML Engineer at Enviro AI (Jan 2023 - Feb 2023)
+
+Refer to my [Resume](files/resume.pdf) for a more detailed overview of my work.
+
+___
+
+## Miscellaneous Intersts
+
+My nerdy passions aside, I find comfort in
+
+- Listening to classical music (be it Chopin's tristesse or Ustad Farid Ayaz's Qawwalis).
+- Lifting weights in the gym.
+- Playing and avidly watching cricket.
+- Caring for my two lovely cats and one mischievous kitten.
+
+___
+
+## What's Ahead for Me
+
+In the upcoming Fall Semester, I will be preoccupied with the following:
+
+- TAing the Machine Learning Course at LUMS (CS 535).
+- Writing a paper hopefully to be submitted at ICLR '25.
+- Enjoying the Advanced Topics in ML course that will mainly revolve around Represenation Learning (yay!)
+- And last but not the least, sharing my learnings with you all!
+
+

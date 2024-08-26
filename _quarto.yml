@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Muhammad Khaquan"
+  favicon: files/favicon.png
+  navbar:
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/muhammad-khaquan-8601b6226/
+      - icon: github
+        href: https://github.com/KhaquanS
+    left:
+      - text: "About"
+        href: about.qmd
+      - text: "Resume"
+        href: files/resume.pdf
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
