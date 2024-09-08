@@ -53,6 +53,55 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Welcome!\nSharing what I learn helps me learn better. I aim to document my intellectual odyssey on this blog!\nTo learn more about me, refer to the About Page."
+    "text": "Welcome!\nSharing what I learn helps me learn better. I aim to document my intellectual odyssey on this blog!\nTo learn more about me, refer to the About Page.\nTo read my blog posts, refer to the Blogs Page."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Implementing Sparse Autoencoders from Scratch\n\n\n\n\n\nWe will be coding a basic Sparse Autoencoder (SAE) in pytorch and training it on the MNIST dataset.\n\n\n\n\n\nSep 8, 2024\n\n\n8 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html",
+    "href": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html",
+    "title": "Implementing Sparse Autoencoders from Scratch",
+    "section": "",
+    "text": "As you might have heard, the power of deep-learning often times is not merely in the results that the deep models are capable of generating but largely in the representations that they learn.\nBefore the deep learning revolution (that most people believe occurred with Krizhevsky, Sutskever, and Hinton (2012)), experts would hand engineer features for domain specific tasks. These features could be various edge detection filters for vision tasks (Harris Corner Detector filter detects corners by gauging the change in pixel intensities) among others. However, as the complexity of the downstream tasks that we wanted to accomplish increased, this particular method for learning features did not scale so well.\nThen, the advent of unsupervised techniques for learning these features rather than hand crafting came to the fore. This shift in how we learn the features for some input distribution is one of the major breakthroughs in modern deep-learning. One particular class of such techniques is the autoencoder architecture."
+  },
+  {
+    "objectID": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html#need-for-unsupervised-techniques",
+    "href": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html#need-for-unsupervised-techniques",
+    "title": "Implementing Sparse Autoencoders from Scratch",
+    "section": "",
+    "text": "As you might have heard, the power of deep-learning often times is not merely in the results that the deep models are capable of generating but largely in the representations that they learn.\nBefore the deep learning revolution (that most people believe occurred with Krizhevsky, Sutskever, and Hinton (2012)), experts would hand engineer features for domain specific tasks. These features could be various edge detection filters for vision tasks (Harris Corner Detector filter detects corners by gauging the change in pixel intensities) among others. However, as the complexity of the downstream tasks that we wanted to accomplish increased, this particular method for learning features did not scale so well.\nThen, the advent of unsupervised techniques for learning these features rather than hand crafting came to the fore. This shift in how we learn the features for some input distribution is one of the major breakthroughs in modern deep-learning. One particular class of such techniques is the autoencoder architecture."
+  },
+  {
+    "objectID": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html#the-autoencoder-architecture",
+    "href": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html#the-autoencoder-architecture",
+    "title": "Implementing Sparse Autoencoders from Scratch",
+    "section": "The Autoencoder Architecture",
+    "text": "The Autoencoder Architecture\n\n\n\nThe autoencoder architecture does not require any carefully labelled data to learn representations for the input. In fact, all you really need is the input data itself.\nMore conceretely, given an input \\(\\mathbf{x} \\in \\mathbb{R}^n\\), the encoder part of the autoencoder maps the input \\(\\mathbf{x}\\) to a latent representation \\(\\mathbf{h} \\in \\mathbb{R}^m\\). Consequently, the decoder part of the autoencoder then uses this latent represenation \\(\\mathbf{h}\\) to reconstruct the input \\(\\mathbf{x}\\).\nWe can then tune the weights of both the whole autoencoder via Gradient Descent by seeing how far off the reconstructed version of the input is from the actual input. For gauging how far off the reconstruction is from the input, we can employ common loss functions such as the mean squared error. The better our reconstruction, the more potent our latent representation \\(\\mathbf{h}\\) (or features) become.\nIf you notice, the input \\(\\mathbf{x}\\) was part of \\(\\mathbb{R}^n\\) but the latent representation \\(\\mathbf{h}\\) is part of \\(\\mathbb{R}^m\\). We can then have two distinct cases:\n\nOver-complete case: This is when \\(\\mathbf{m} \\ge \\mathbf{n}\\). This case is prone to a major issue that we peek into in the subsequent section.\nUnder-complete case: This is when \\(\\mathbf{m} \\lt \\mathbf{n}\\)."
+  },
+  {
+    "objectID": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html#need-for-regularisation-in-autoencoders",
+    "href": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html#need-for-regularisation-in-autoencoders",
+    "title": "Implementing Sparse Autoencoders from Scratch",
+    "section": "Need for Regularisation in Autoencoders",
+    "text": "Need for Regularisation in Autoencoders\nAs foreshadowed in the previous section, the over-complete autoencoders have greater capacity (more neurons) in the latent representation layer \\(\\mathbf{h}\\) than the number of features in the input \\(\\mathbf{x}\\). This can lead to one major issue:\nThe nature of the objective in the autoencoder setting (low error reconstruction of the input data) means that the autoencoder with a large latent space capacity can naively learn to ‘copy’ the input features into the latent space instead of learning new, useful features and still display an incredibly low loss. This is a severe case of overfitting where our network memorises the input data and will suffer to generalise outside of the training domain.\nAlthough this case ususally arises in the over-complete case, it is also possible in the under-complete case given the distribution of the input data is rather simple.\nBut the question then is: How do we avoid this catastrophic over-fitting?. A simple answer would be Regularisation.\nMore specifically, we will be looking into the sparsity contraint which is a form of regularisation that gives rise to the Sparse Autoencoder (SAE)."
+  },
+  {
+    "objectID": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html#conclusion",
+    "href": "blog/posts/2024-09-08-Sparse-Autoencoder/index.html#conclusion",
+    "title": "Implementing Sparse Autoencoders from Scratch",
+    "section": "Conclusion",
+    "text": "Conclusion\nSo in this blog post, we first saw the need for Unsupervised Learning techniques in the domain of feature learning, then we looked at a basic Autoencoder architecture, from there we finally built out the idea of a regularised Sparse Autoencoder and discussed the sparsity constraint in detail.\nI hope I was able to convery the need to regularise the vanilla autoencoder especially in the overcomplete case. Moreover, I hope the final generations for both the undercomplete and overcomplete networks provide a good idea of how powerful these autoencoders are.\nI will now be focusing on Variational Autoencoders in my next blog post and hopefully, we will be able to discover the generative capabilities of the VAEs!\nPS: Before I sign off, you can access my repo for the Sparse Autoencoder from here . You can simply run the sae.py file in your terminal to train your own SAE!"
   }
 ]

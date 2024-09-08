@@ -16,6 +16,8 @@ website:
         href: about.qmd
       - text: "Resume"
         href: files/resume.pdf
+      - text: "Blog"
+        href: blog/index.qmd
 format:
   html:
     theme: cosmo

@@ -9,3 +9,5 @@ title-block-banner: true
 Sharing what I learn helps me learn better. I aim to document my intellectual odyssey on this blog!
 
 To learn more about me, refer to the [About Page](about.qmd).
+
+To read my blog posts, refer to the [Blogs Page](blog/index.qmd).

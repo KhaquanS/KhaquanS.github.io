@@ -1,0 +1,13 @@
+---
+title: Blog
+subtitle: I explore the deep abyss of neural nets.
+listing:
+  sort: "date desc"
+  contents: "posts"
+  sort-ui: false
+  filter-ui: false
+  categories: false
+  feed: true
+  fields: [date, description, title, author, reading-time]
+page-layout: full
+---
