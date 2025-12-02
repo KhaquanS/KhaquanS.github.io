@@ -6,7 +6,7 @@ title-block-banner: true
 ---
 
 # Welcome!
-Sharing what I learn helps me learn better. I aim to document my intellectual odyssey on this blog!
+This is my thought dump where I will share the knowledge that I acquire on my road to enabling, smaller, smarter, and faster Artificial Intelligence.
 
 To learn more about me, refer to the [About Page](about.qmd).
 

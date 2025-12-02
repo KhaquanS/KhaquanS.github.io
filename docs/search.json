@@ -4,35 +4,35 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a CS senior at LUMS and a Machine Learning Researcher at Centre for Speech and Language Technologies (CSaLT).\nI revel in contributing towards the deployment of large networks on small GPUs so that more people can enjoy the wonders of scaled up nerual nets."
+    "text": "I am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anywhere in the world with good compute :) and even better peers/mentors.\nCurrently, I am serving as a Teaching Fellow (junior faculty position) at the CS department of LUMS.\nMy day usually has me acting on two fronts:\nResearching: I lead two research groups, one at CSALT and one at City Lab. Underneath the glamour, I sit on my PC and make slightly non-trivial attempts at answering\nHow can we distill knowledge from Teacher to Student in a low loss manner? Can we isolate knowledge circuits in Teachers and distill these circuits into Students?\nTeaching: I currently co-teach the data-structures course to a class of over 300 students (yes I know thats a lot of students). Previously, I taught the MS-AI bootcamp, a crash-course for going over programming basics and mathematical foundations of AI for incoming graduate students (most of them were from non-technical backgrounds)."
   },
   {
     "objectID": "about.html#my-interests",
     "href": "about.html#my-interests",
     "title": "About",
     "section": "My Interests",
-    "text": "My Interests\n\nModel Compression: Pruning, Distillation, Quantisation and PEFT methods among other techniques.\nRepresentation Learning: Methods ranging from the classic word2vec to the modern CLIP embeddings.\nRetrieval Augmented Systems: Building custom RAG pipelines and Agentic frameworks to accomplish complex reasoning tasks (refer to the DataSci Chatbot project in my Resume)\nModern DNN Architectures: SOTA architectures such as MoE models, Diffusion Models, and more recently hybrid state space models such as Mamba.\nGeneral Stuff: Topics in Quantitative Finance (reading up on various intuitive derivations of Black-Scholes is a guilty pleasure) and more recently Theoretical Neuroscience."
+    "text": "My Interests\n\nModel Compression: It started of with KV cache compression but right now, I am entranced by Knowledge Distillation - the goal is to build a hive mind.\nMechanistic Interpretability: Ever since I came across Neel Nanda’s work, I have been fascinated by our ability to reverse engineer DNNs even as complex as LLMs! Specifically, I am focusing on isolating circuits in large models.\nReasoning LLMs: Currently, to inculcate reasoning in smaller models (students) using large reasoning models (teachers), we do SFT on reasoning traces of teachers or a variant of it.\n\nI am currently working with my research group to unlock a new circuit distillation approach that first isolates and then distills reasoning circuits.\n\nModern DNN Architectures: SOTA architectures such as MoE models, Diffusion Models, and more recently hybrid state space models such as Mamba.\nGeneral Stuff: Topics in Quantitative Finance (reading up on various intuitive derivations of Black-Scholes is a guilty pleasure) and more recently Theoretical Neuroscience."
   },
   {
     "objectID": "about.html#professional-experience",
     "href": "about.html#professional-experience",
     "title": "About",
     "section": "Professional Experience",
-    "text": "Professional Experience\n\nML Researcher at CSaLT (Sep 2023 - Present)\nFreelance ML Engineer (Jul 2024 - Aug 2024)\nML Engineer at Whichdraft (Jan 2023 - Jan 2024)\nML Engineer at Data Solutions (Mar 2023 - Apr 2023)\nML Engineer at Enviro AI (Jan 2023 - Feb 2023)\n\nRefer to my Resume for a more detailed overview of my work."
+    "text": "Professional Experience\n\nResearch Lead at City@LUMS (Dec 2024 - Present)\nResearch Lead at CSaLT (Sep 2023 - Present)\nFreelance ML Engineer (Jul 2024 - Aug 2024)\nML Engineer at Whichdraft (Jan 2023 - Jan 2024)\nML Engineer at Data Solutions (Mar 2023 - Apr 2023)\nML Engineer at Enviro AI (Jan 2023 - Feb 2023)\n\nRefer to my Resume for a more detailed overview of my work."
   },
   {
     "objectID": "about.html#miscellaneous-intersts",
     "href": "about.html#miscellaneous-intersts",
     "title": "About",
     "section": "Miscellaneous Intersts",
-    "text": "Miscellaneous Intersts\nMy nerdy passions aside, I find comfort in\n\nListening to classical music (be it Chopin’s tristesse or Ustad Farid Ayaz’s Qawwalis).\nLifting weights in the gym.\nPlaying and avidly watching cricket.\nCaring for my two lovely cats and one mischievous kitten."
+    "text": "Miscellaneous Intersts\nAlthough it may not seem like it, but I do have a life outside of my office. When free, I enjoy\n\nListening to classical music (be it Chopin’s tristesse or Ustad Farid Ayaz’s Qawwalis).\nReading non-fiction (especially history. I love history)\nUnsuccessfully trying to emulate Artur Beterbiev in the boxing gym\nEnabling the gluttony of my cats"
   },
   {
     "objectID": "about.html#whats-ahead-for-me",
     "href": "about.html#whats-ahead-for-me",
     "title": "About",
     "section": "What’s Ahead for Me",
-    "text": "What’s Ahead for Me\nIn the upcoming Fall Semester, I will be preoccupied with the following:\n\nTAing the Machine Learning Course at LUMS (CS 535).\nWriting a paper hopefully to be submitted at ICLR ’25.\nEnjoying the Advanced Topics in ML course that will mainly revolve around Represenation Learning (yay!)\nAnd last but not the least, sharing my learnings with you all!"
+    "text": "What’s Ahead for Me\nIn the upcoming days, I will be pre-occupied with the following:\n\nFilling out applications to graduate schools\nWorking with both of my research groups to hopefully cement our findings by the end of December"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -53,14 +53,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Welcome!\nSharing what I learn helps me learn better. I aim to document my intellectual odyssey on this blog!\nTo learn more about me, refer to the About Page.\nTo read my blog posts, refer to the Blogs Page."
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "No matching items"
+    "text": "Welcome!\nThis is my thought dump where I will share the knowledge that I acquire on my road to enabling, smaller, smarter, and faster Artificial Intelligence.\nTo learn more about me, refer to the About Page.\nTo read my blog posts, refer to the Blogs Page."
   },
   {
     "objectID": "blog/index.html",
@@ -103,5 +96,12 @@
     "title": "Implementing Sparse Autoencoders from Scratch",
     "section": "Conclusion",
     "text": "Conclusion\nSo in this blog post, we first saw the need for Unsupervised Learning techniques in the domain of feature learning, then we looked at a basic Autoencoder architecture, from there we finally built out the idea of a regularised Sparse Autoencoder and discussed the sparsity constraint in detail.\nI hope I was able to convery the need to regularise the vanilla autoencoder especially in the overcomplete case. Moreover, I hope the final generations for both the undercomplete and overcomplete networks provide a good idea of how powerful these autoencoders are.\nI will now be focusing on Variational Autoencoders in my next blog post and hopefully, we will be able to discover the generative capabilities of the VAEs!\nPS: Before I sign off, you can access my repo for the Sparse Autoencoder from here . You can simply run the sae.py file in your terminal to train your own SAE!"
+  },
+  {
+    "objectID": "about.html#my-research-interests",
+    "href": "about.html#my-research-interests",
+    "title": "About",
+    "section": "My Research Interests",
+    "text": "My Research Interests\n\nModel Compression: It started of with KV cache compression but right now, I am entranced by Knowledge Distillation - the goal is to build a hive mind.\nMechanistic Interpretability: Ever since I came across Neel Nanda’s work, I have been fascinated by our ability to reverse engineer DNNs even as complex as LLMs! Specifically, I am focusing on isolating circuits in large models.\nReasoning LLMs: Currently, to inculcate reasoning in smaller models (students) using large reasoning models (teachers), we do SFT on reasoning traces of teachers or a variant of it.\n\nI am currently working with my research group to unlock a new circuit distillation approach that first isolates and then distills reasoning circuits."
   }
 ]

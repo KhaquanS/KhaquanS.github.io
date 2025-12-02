@@ -17,34 +17,46 @@ about:
       href: files/resume.pdf
 ---
 
-I am a CS senior at LUMS and a Machine Learning Researcher at Centre for Speech and Language Technologies (CSaLT).
+<style>
+.about-contents {
+  text-align: left !important;
+}
+</style>
 
-I revel in contributing towards the deployment of large networks on small GPUs so that more people can enjoy the wonders of scaled up nerual nets. 
+I am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anywhere in the world with good compute :) and even better peers/mentors.
+
+Currently, I am serving as a Teaching Fellow (junior faculty position) at the CS department of LUMS. 
+
+My day usually has me acting on two fronts: 
+
+**Researching**: I lead two research groups, one at CSALT and one at City Lab. Underneath the glamour, I sit on my PC and make slightly non-trivial attempts at answering
+
+*How can we distill knowledge from Teacher to Student in a low loss manner? Can we isolate knowledge circuits in Teachers and distill these circuits into Students?*
+
+**Teaching**: I currently co-teach the data-structures course to a class of over 300 students (yes I know thats a lot of students). Previously, I taught the MS-AI bootcamp, a crash-course for going over programming basics and mathematical foundations of AI for incoming graduate students (most of them were from non-technical backgrounds).
 
 ___
 
-## My Interests
+## My Research Interests
 
 - **Model Compression:**
-Pruning, Distillation, Quantisation and PEFT methods among other techniques. 
+It started of with *KV cache compression* but right now, I am entranced by *Knowledge Distillation* - the goal is to build a *hive mind*.
 
-- **Representation Learning:**
-Methods ranging from the classic word2vec to the modern CLIP embeddings.
+- **Mechanistic Interpretability:**
+Ever since I came across [Neel Nanda's](https://www.neelnanda.io/) work, I have been fascinated by our ability to *reverse engineer* DNNs even as complex as LLMs! Specifically, I am focusing on *isolating circuits* in large models.
 
-- **Retrieval Augmented Systems:**
-Building custom RAG pipelines and Agentic frameworks to accomplish complex reasoning tasks (refer to the DataSci Chatbot project in my [Resume](files/resume.pdf))
-
-- **Modern DNN Architectures:**
-SOTA architectures such as MoE models, Diffusion Models, and more recently hybrid state space models such as Mamba.
-
-- **General Stuff:**
-Topics in Quantitative Finance (reading up on various intuitive derivations of Black-Scholes is a guilty pleasure) and more recently Theoretical Neuroscience.
+- **Reasoning LLMs:**
+Currently, to inculcate reasoning in smaller models (students) using large reasoning models (teachers), we do *SFT on reasoning traces* of teachers or a variant of it.
+<div style="text-align: center;">
+I am currently working with my research group to unlock a new *circuit distillation approach* that first *isolates and then distills reasoning circuits*.
+</div>
 
 ___
 
 ## Professional Experience
 
-- ML Researcher at CSaLT (Sep 2023 - Present)
+- Research Lead at City@LUMS (Dec 2024 - Present)
+- Research Lead at CSaLT (Sep 2023 - Present)
 - Freelance ML Engineer (Jul 2024 - Aug 2024)
 - ML Engineer at Whichdraft (Jan 2023 - Jan 2024)
 - ML Engineer at Data Solutions (Mar 2023 - Apr 2023)
@@ -56,22 +68,18 @@ ___
 
 ## Miscellaneous Intersts
 
-My nerdy passions aside, I find comfort in
+Although it may not seem like it, but I do have a life outside of my office. When free, I enjoy
 
 - Listening to classical music (be it Chopin's tristesse or Ustad Farid Ayaz's Qawwalis).
-- Lifting weights in the gym.
-- Playing and avidly watching cricket.
-- Caring for my two lovely cats and one mischievous kitten.
+- Reading non-fiction (especially history. I love history)
+- Unsuccessfully trying to emulate Artur Beterbiev in the boxing gym
+- Enabling the gluttony of my cats
 
 ___
 
 ## What's Ahead for Me
 
-In the upcoming Fall Semester, I will be preoccupied with the following:
+In the upcoming days, I will be pre-occupied with the following:
 
-- TAing the Machine Learning Course at LUMS (CS 535).
-- Writing a paper hopefully to be submitted at ICLR '25.
-- Enjoying the Advanced Topics in ML course that will mainly revolve around Represenation Learning (yay!)
-- And last but not the least, sharing my learnings with you all!
-
-
+- Filling out applications to graduate schools 
+- Working with both of my research groups to hopefully cement our findings by the end of December 
