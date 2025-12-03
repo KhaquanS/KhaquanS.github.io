@@ -206,6 +206,7 @@ I am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anyw
   <div class="cv-entry-title">Bachelor of Science in Computer Science</div>
   <div class="cv-entry-org">Lahore University of Management Sciences (LUMS)</div>
   <div class="cv-entry-date">September 2021 - July 2025</div>
+  <div class="cv-entry-description">Graduated with a <i>CGPA of 3.72 (high distinction)</i></div>
 </div>
 
 <h2 class="section-title">Awards and Honors</h2>
