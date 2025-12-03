@@ -5,7 +5,6 @@ format:
   html:
     toc: false
 ---
-
 ```{=html}
 <style>
 .quarto-title {
@@ -125,16 +124,18 @@ format:
 .cv-entry-org {
   color: #666;
   font-size: 0.95em;
+  font-weight: 500;
 }
 
 .cv-entry-date {
   color: #888;
   font-size: 0.9em;
   margin-bottom: 0.4em;
+  font-weight: 500;
 }
 
 .cv-entry-description {
-  color: #555;
+  color: #444;
   line-height: 1.5;
   margin-top: 0.4em;
   font-size: 0.95em;
@@ -165,8 +166,9 @@ format:
 }
 
 i, em {
-  color: #5a6c7d;
-  font-style: italic;
+  color: #0070c0;
+  font-style: normal;
+  font-weight: bold;
 }
 
 </style>
@@ -312,7 +314,7 @@ I am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anyw
 <div class="cv-entry">
   <div class="cv-entry-title">Adjunct Faculty - Computer Science</div>
   <div class="cv-entry-org">Masters in AI Bootcamp</div>
-  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-date">August 2025</div>
   <div class="cv-entry-description">
     <li><i>Lead instructor</i> to a class of 110 incoming graduate students for AI</li>
     <li>Delivered <i>lectures</i> covering the basics of <i>programming</i> in python, <i>probability theory</i> and <i>multi-variable calculus</i></li>
@@ -322,7 +324,7 @@ I am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anyw
 <div class="cv-entry">
   <div class="cv-entry-title">Lead Teaching Assistant - Computer Science</div>
   <div class="cv-entry-org">Fundamentals of Generative AI (CS 5306)</div>
-  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-date">January 2025 - May 2025</div>
   <div class="cv-entry-description">
     <li>Collborated with Dr. Agha Ali Raza to <i> redesign his popular graduate level course on generative language models</i></li>
     <li><i>Revamped programming assingments</i> and introduced a coherent flow - build embedding models, then Smol Llama, LoRA on Smol Llama, and then perform PPO on Smol Llama</li>
@@ -333,7 +335,7 @@ I am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anyw
 <div class="cv-entry">
   <div class="cv-entry-title">Teaching Assistant - Computer Science</div>
   <div class="cv-entry-org">Machine Learning (CS 436)</div>
-  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-date">September 2024 - December 2024</div>
   <div class="cv-entry-description">
     <li><i>Developed a programming assignment</i> which constrcuted Feed-forward networks from scratch in numpy</li>
     <li><i>Delivered</i> a seires of <i>highly popular tutorials</i></li>
