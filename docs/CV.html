@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Muhammad Khaquan</title>
+<title>Muhammad Khaquan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../files/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./files/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,78 +67,20 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-description','listing-title','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Muhammad Khaquan</span>
     </a>
   </div>
@@ -151,15 +91,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../CV.html"> 
+    <a class="nav-link active" href="./CV.html" aria-current="page"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+    <a class="nav-link" href="./blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -182,68 +122,391 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Blog</h1>
-            <p class="subtitle lead">I explore the deep abyss of neural nets.</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Muhammad Khaquan</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<style>
+.quarto-title {
+  text-align: left;
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+  color: #2c3e50;
+}
+
+.quarto-title-block {
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+.subtitle {
+  font-size: 1.4em;
+  color: #555;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-right {
+  flex-shrink: 0;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.social-links {
+  display: flex;
+  gap: 2em;
+  font-size: 1.1em;
+  margin-top: 1.5em;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.social-links a:hover {
+  color: #2780e3;
+}
+
+.social-links i {
+  font-size: 1.2em;
+}
+
+.intro-text {
+  font-size: 1.15em;
+  line-height: 1.7;
+  margin-bottom: 2em;
+  color: #333;
+}
+
+.section-title {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  color: #2c3e50;
+}
+
+.research-focus {
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+  color: #333;
+}
+
+.research-focus strong {
+  color: #2780e3;
+}
+
+.cv-entry {
+  margin-bottom: 2em;
+}
+
+.cv-entry-title {
+  font-weight: 600;
+  font-size: 1.15em;
+  color: #2c3e50;
+}
+
+.cv-entry-org {
+  color: #666;
+  font-size: 1.05em;
+}
+
+.cv-entry-date {
+  color: #888;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.cv-entry-description {
+  color: #555;
+  line-height: 1.6;
+  margin-top: 0.5em;
+}
+
+.research-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.research-list li {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.6;
+}
+
+.research-list li::before {
+  content: "• ";
+  color: #2780e3;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-right: 0.5em;
+}
+
+i, em {
+  color: #2780e3;
+  font-style: italic;
+}
+
+</style>
+
+<div class="header-container">
+  <div class="header-left">
+    <div class="subtitle">Computer Science Teaching Fellow | LUMS</div>
+    
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/muhammad-khaquan-8601b6226/" target="_blank">
+        <i class="bi bi-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/KhaquanS/" target="_blank">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+      <a href="https://scholar.google.com/citations?user=XVVmWdcAAAAJ&amp;hl=en" target="_blank">
+        <i class="ai ai-google-scholar"></i> Google Scholar
+      </a>
+    </div>
+  </div>
+  
+  <div class="header-right">
+    <img src="files/profile.jpg" alt="Muhammad Khaquan" class="profile-image">
+  </div>
+</div>
+
+<div class="intro-text">
+I am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anywhere in the world with good compute :) and even better peers/mentors. Currently, I am serving as a Teaching Fellow (junior faculty position) at the CS department of LUMS, where I lead two research groups—one at CSaLT and one at City Lab.
+</div>
+
+
+<h2 class="section-title anchored">Education</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Bachelor of Science in Computer Science</div>
+  <div class="cv-entry-org">Lahore University of Management Sciences (LUMS)</div>
+  <div class="cv-entry-date">September 2021 - July 2025</div>
+</div>
+
+<h2 class="section-title anchored">Awards and Honors</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Graduated with High Distinction</div>
+  <div class="cv-entry-org">Lahore University of Management Sciences (LUMS)</div>
+  <div class="cv-entry-date">July 2025</div>
+  <div class="cv-entry-description">Among the top-25 people in my batch</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Dean's Honor List</div>
+  <div class="cv-entry-org">Lahore University of Management Sciences (LUMS)</div>
+  <div class="cv-entry-date">December 2022, December 2023, December 2024</div>
+  <div class="cv-entry-description">Placed on the Dean's Honor List for every semester of my undergraduate degree</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">USEFP High Achiever Award</div>
+  <div class="cv-entry-org">United States Education Foundation Pakistan</div>
+  <div class="cv-entry-date">January 2021</div>
+  <div class="cv-entry-description">Among the highest SAT scores in the country (1560/1600) in my exam cycle</div>
+</div>
+
+<h2 class="section-title anchored">Research Experience</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://github.com/KhaquanS/fitnet-sae_injection" target="_blank"> AENets: An AutoEncoder based compression of large networks</a></div>
+  <div class="cv-entry-org">City@LUMS - Research Lead</div>
+  <div class="cv-entry-date">July 2025 - Present</div>
+  <div class="cv-entry-description">
+    <li>Developed a method to create <i>light-weight hybrid architectures</i> by using large pretrained teachers.</li>
+    <li><i>Approaching teacher performance</i> on 3 image classification benchmarks and <i>SOTA on OOD </i> benchmarks <i>at compression ratios of upto 100x</i>.</li>
+    <li>To be published in this month
+  </li></div>
+</div>
+
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://github.com/samiemirza/KnowledgeDistillation" target="_blank"> ReasonDistill: Distilling Reasoning Neurons</a></div>
+  <div class="cv-entry-org">CSALT + City@LUMS - Research Lead</div>
+  <div class="cv-entry-date">October 2025 - Present</div>
+  <div class="cv-entry-description">
+    <li><i>Leading a team of 4 junior researchers</i> trying to distill reasoning into small language models.</li>
+    <li>Proposed a <i>mechanistic approach to distilling reasoning</i> into small LMs</li>
+    <li>Finalised training of a <i>Matryoshka Sparse Autoencoder</i> to construct an <i>overcomplete feature dictionary</i> using intermediate features from a large reasoning model (Deepseek-R1-distill-Llama8B)</li>
+  </div>
+</div>
+
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://github.com/KhaquanS/WH-DisDKD" target="_blank">DisDKD: Discriminator based exploration of DKD</a></div>
+  <div class="cv-entry-org">City@LUMS - Research Lead</div>
+  <div class="cv-entry-date">September 2025 - Present</div>
+  <div class="cv-entry-description">
+    <li><i>Leading a research group</i> of 3 junior researchers picked from the Advanced Topics in ML course</li>
+    <li>We are trying to inculcate <i>explicit feature alignment</i> in Decoupled-KD</li>
+    <li>Designed a <i>discriminator</i> based approach <i>to align the feature distribution</i> of the hint generator (teacher backbone) with the guided generator (student backbone)</li>
+    <li>Introduced a <i>contrastive</i> component in the <i>discriminator</i> loss to <i>address the mode collapse issue</i></li>
+    <li><i>Outperforming FitNets and Decoupled-KD</i> on 3 standard image classification benchmarks</li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://arxiv.org/abs/2408.08454" target="_blank"> DGQA: Dynamic Grouped Query Attention</a></div>
+  <div class="cv-entry-org">CSALT - Research Intern</div>
+  <div class="cv-entry-date">August 2024 - December 2024</div>
+  <div class="cv-entry-description">
+    <li>Proposed an <i>incremental upgrade</i> to Grouped Query Attention (GQA) by allowing <i>dynamic allocations of groups during uptraining</i> of GQA</li>
+    <li>Showed non-trivial gains across multiple models and benchmarks in ViTs (used ViTs instead of LLMs due to computational constraints)</li>
+    <li><i>Multiple citations</i> via arxiv</li>
+  </div>
+</div>
+
+
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://github.com/omertafveez-2001/Decoupled-Gradient-Knowledge-Distilation" target="_blank"> G-DKD: Gradient Decoupled KD</a></div>
+  <div class="cv-entry-org">City@LUMS - Research Intern</div>
+  <div class="cv-entry-date">September 2024 - January 2025</div>
+  <div class="cv-entry-description">
+    <li>Made an <i>incremental change on top of Decoupled-KD</i> by decoupling even at the gradient level</li>
+    <li>We got the gradient of student target logits in the TCKD loss and non-target logits in the NCKD loss and tried to <i>diverge</i> these two <i>gradient terms by maximising the L2 distance</i> between them</li>
+    <li>Ended the project as we only saw trivial gains over vanilla Decoupled-KD</li>
+  </div>
+</div>
 
 
 
 
 
+<h2 class="section-title anchored">Teaching Experience</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Teaching Fellow - Computer Science</div>
+  <div class="cv-entry-org">Data Structures (CS 202)</div>
+  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-description">
+    <li><i>Co-teaching the data structures course</i> to a class of <i>312 students</i> </li>
+    <li>Conducted <i>weekly tutorials</i> to reinforce the topics covered in lectures </li>
+    <li><i>Managed course logistics</i> including quizzes and exams </li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Adjunct Faculty - Computer Science</div>
+  <div class="cv-entry-org">Masters in AI Bootcamp</div>
+  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-description">
+    <li><i>Lead instructor</i> to a class of 110 incoming graduate students for AI</li>
+    <li>Delivered <i>lectures</i> covering the basics of <i>programming</i> in python, <i>probability theory</i> and <i>multi-variable calculus</i></li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Lead Teaching Assistant - Computer Science</div>
+  <div class="cv-entry-org">Fundamentals of Generative AI (CS 5306)</div>
+  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-description">
+    <li>Collborated with Dr. Agha Ali Raza to <i> redesign his popular graduate level course on generative language models</i></li>
+    <li><i>Revamped programming assingments</i> and introduced a coherent flow - build embedding models, then Smol Llama, LoRA on Smol Llama, and then perform PPO on Smol Llama</li>
+    <li><i>Designed</i> majority of the <i>quizzes and paper reading assignments</i></li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Teaching Assistant - Computer Science</div>
+  <div class="cv-entry-org">Machine Learning (CS 436)</div>
+  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-description">
+    <li><i>Developed a programming assignment</i> which constrcuted Feed-forward networks from scratch in numpy</li>
+    <li><i>Delivered</i> a seires of <i>highly popular tutorials</i></li>
+  </div>
+</div>
+
+
+<h2 class="section-title anchored">Industry Experience</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Machine Learning Engineer</div>
+  <div class="cv-entry-org">WhichDraft</div>
+  <div class="cv-entry-date">June 2023 - January 2024</div>
+  <div class="cv-entry-description">
+    <li>Established an <i>end-to-end pipeline with OpenAI API</i> to automate legal contract generation using AI powered agents</li>
+    <li>Developed a vanilla agent which <i>automated taxonomy generation by 90%+</i> leading to custom legal contract generation</li>
+    <li>Developed an editor agent to integrate client instructions into generated contracts, <i>enhancing satisfaction by 70%+</i></li>
+    <li>Developed an MVP Agent which enabled contract wide and component specific customizations, <i>boosting user engagement by 52%</i> and <i>reducing support inquiries by 25%</i></li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Machine Learning Engineer</div>
+  <div class="cv-entry-org">Zeta Solutions</div>
+  <div class="cv-entry-date">March 2023 - April 2023</div>
+  <div class="cv-entry-description">
+    <li>Developed a notebook to be used in <i>demonstration of AI agent capabilities</i> using LangChain and GPT-4 API for a class of <i>over 150 students</i></li>
+    <li>Established an agent executor to incorporate memory and instruction recall thus <i>boosting response quality by 40%+</i></li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Machine Learning Engineer</div>
+  <div class="cv-entry-org">Environ AI</div>
+  <div class="cv-entry-date">January 2023 - February 2023</div>
+  <div class="cv-entry-description">
+    <li>Created a chatbot for navigating a corpus of <i>1 million+ legal documents</i> to facilitate client's green policy decisions</li>
+    <li><i>Improved model throughput by 42%</i> by employing a semantic hashing protocol to shortlist relevant documents</li>
+    <li>Conducted <i>Retrieval Augmented Generation</i> on the shortlisted documents to respond to client queries</li>
+  </div>
+</div>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1725735600000" data-listing-file-modified-sort="1725816066384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1539">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/2024-09-08-Sparse-Autoencoder/index.html" class="no-external">Implementing Sparse Autoencoders from Scratch</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/2024-09-08-Sparse-Autoencoder/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../blog/posts/2024-09-08-Sparse-Autoencoder/index.html" class="no-external">We will be coding a basic Sparse Autoencoder (SAE) in pytorch and training it on the MNIST dataset.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/2024-09-08-Sparse-Autoencoder/index.html" class="no-external">
-<div class="listing-date">
-Sep 8, 2024
-</div>
-<div class="listing-reading-time">
-8 min
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

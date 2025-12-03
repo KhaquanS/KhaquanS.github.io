@@ -1,0 +1,365 @@
+---
+title: "Muhammad Khaquan"
+title-block-banner: false
+format:
+  html:
+    toc: false
+---
+
+```{=html}
+<style>
+.quarto-title {
+  text-align: left;
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+  color: #2c3e50;
+}
+
+.quarto-title-block {
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+.subtitle {
+  font-size: 1.4em;
+  color: #555;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-right {
+  flex-shrink: 0;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.social-links {
+  display: flex;
+  gap: 2em;
+  font-size: 1.1em;
+  margin-top: 1.5em;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.social-links a:hover {
+  color: #2780e3;
+}
+
+.social-links i {
+  font-size: 1.2em;
+}
+
+.intro-text {
+  font-size: 1.15em;
+  line-height: 1.7;
+  margin-bottom: 2em;
+  color: #333;
+}
+
+.section-title {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  color: #2c3e50;
+}
+
+.research-focus {
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+  color: #333;
+}
+
+.research-focus strong {
+  color: #2780e3;
+}
+
+.cv-entry {
+  margin-bottom: 2em;
+}
+
+.cv-entry-title {
+  font-weight: 600;
+  font-size: 1.15em;
+  color: #2c3e50;
+}
+
+.cv-entry-org {
+  color: #666;
+  font-size: 1.05em;
+}
+
+.cv-entry-date {
+  color: #888;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.cv-entry-description {
+  color: #555;
+  line-height: 1.6;
+  margin-top: 0.5em;
+}
+
+.research-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.research-list li {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.6;
+}
+
+.research-list li::before {
+  content: "• ";
+  color: #2780e3;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-right: 0.5em;
+}
+
+i, em {
+  color: #2780e3;
+  font-style: italic;
+}
+
+</style>
+
+<div class="header-container">
+  <div class="header-left">
+    <div class="subtitle">Computer Science Teaching Fellow | LUMS</div>
+    
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/muhammad-khaquan-8601b6226/" target="_blank">
+        <i class="bi bi-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/KhaquanS/" target="_blank">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+      <a href="https://scholar.google.com/citations?user=XVVmWdcAAAAJ&hl=en" target="_blank">
+        <i class="ai ai-google-scholar"></i> Google Scholar
+      </a>
+    </div>
+  </div>
+  
+  <div class="header-right">
+    <img src="files/profile.jpg" alt="Muhammad Khaquan" class="profile-image">
+  </div>
+</div>
+
+<div class="intro-text">
+I am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anywhere in the world with good compute :) and even better peers/mentors. Currently, I am serving as a Teaching Fellow (junior faculty position) at the CS department of LUMS, where I lead two research groups—one at CSaLT and one at City Lab.
+</div>
+
+
+<h2 class="section-title">Education</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Bachelor of Science in Computer Science</div>
+  <div class="cv-entry-org">Lahore University of Management Sciences (LUMS)</div>
+  <div class="cv-entry-date">September 2021 - July 2025</div>
+</div>
+
+<h2 class="section-title">Awards and Honors</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Graduated with High Distinction</div>
+  <div class="cv-entry-org">Lahore University of Management Sciences (LUMS)</div>
+  <div class="cv-entry-date">July 2025</div>
+  <div class="cv-entry-description">Among the top-25 people in my batch</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Dean's Honor List</div>
+  <div class="cv-entry-org">Lahore University of Management Sciences (LUMS)</div>
+  <div class="cv-entry-date">December 2022, December 2023, December 2024</div>
+  <div class="cv-entry-description">Placed on the Dean's Honor List for every semester of my undergraduate degree</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">USEFP High Achiever Award</div>
+  <div class="cv-entry-org">United States Education Foundation Pakistan</div>
+  <div class="cv-entry-date">January 2021</div>
+  <div class="cv-entry-description">Among the highest SAT scores in the country (1560/1600) in my exam cycle</div>
+</div>
+
+<h2 class="section-title">Research Experience</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://github.com/KhaquanS/fitnet-sae_injection" target="_blank"> AENets: An AutoEncoder based compression of large networks</a></div>
+  <div class="cv-entry-org">City@LUMS - Research Lead</div>
+  <div class="cv-entry-date">July 2025 - Present</div>
+  <div class="cv-entry-description">
+    <li>Developed a method to create <i>light-weight hybrid architectures</i> by using large pretrained teachers.</li>
+    <li><i>Approaching teacher performance</i> on 3 image classification benchmarks and <i>SOTA on OOD </i> benchmarks <i>at compression ratios of upto 100x</i>.</li>
+    <li>To be published in this month</i>
+  </div>
+</div>
+
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://github.com/samiemirza/KnowledgeDistillation" target="_blank"> ReasonDistill: Distilling Reasoning Neurons</a></div>
+  <div class="cv-entry-org">CSALT + City@LUMS - Research Lead</div>
+  <div class="cv-entry-date">October 2025 - Present</div>
+  <div class="cv-entry-description">
+    <li><i>Leading a team of 4 junior researchers</i> trying to distill reasoning into small language models.</li>
+    <li>Proposed a <i>mechanistic approach to distilling reasoning</i> into small LMs</li>
+    <li>Finalised training of a <i>Matryoshka Sparse Autoencoder</i> to construct an <i>overcomplete feature dictionary</i> using intermediate features from a large reasoning model (Deepseek-R1-distill-Llama8B)</li>
+  </div>
+</div>
+
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://github.com/KhaquanS/WH-DisDKD" target="_blank">DisDKD: Discriminator based exploration of DKD</a></div>
+  <div class="cv-entry-org">City@LUMS - Research Lead</div>
+  <div class="cv-entry-date">September 2025 - Present</div>
+  <div class="cv-entry-description">
+    <li><i>Leading a research group</i> of 3 junior researchers picked from the Advanced Topics in ML course</li>
+    <li>We are trying to inculcate <i>explicit feature alignment</i> in Decoupled-KD</li>
+    <li>Designed a <i>discriminator</i> based approach <i>to align the feature distribution</i> of the hint generator (teacher backbone) with the guided generator (student backbone)</li>
+    <li>Introduced a <i>contrastive</i> component in the <i>discriminator</i> loss to <i>address the mode collapse issue</i></li>
+    <li><i>Outperforming FitNets and Decoupled-KD</i> on 3 standard image classification benchmarks</li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://arxiv.org/abs/2408.08454" target="_blank"> DGQA: Dynamic Grouped Query Attention</a></div>
+  <div class="cv-entry-org">CSALT - Research Intern</div>
+  <div class="cv-entry-date">August 2024 - December 2024</div>
+  <div class="cv-entry-description">
+    <li>Proposed an <i>incremental upgrade</i> to Grouped Query Attention (GQA) by allowing <i>dynamic allocations of groups during uptraining</i> of GQA</li>
+    <li>Showed non-trivial gains across multiple models and benchmarks in ViTs (used ViTs instead of LLMs due to computational constraints)</li>
+    <li><i>Multiple citations</i> via arxiv</li>
+  </div>
+</div>
+
+
+
+<div class="cv-entry">
+  <div class="cv-entry-title"><a href="https://github.com/omertafveez-2001/Decoupled-Gradient-Knowledge-Distilation" target="_blank"> G-DKD: Gradient Decoupled KD</a></div>
+  <div class="cv-entry-org">City@LUMS - Research Intern</div>
+  <div class="cv-entry-date">September 2024 - January 2025</div>
+  <div class="cv-entry-description">
+    <li>Made an <i>incremental change on top of Decoupled-KD</i> by decoupling even at the gradient level</li>
+    <li>We got the gradient of student target logits in the TCKD loss and non-target logits in the NCKD loss and tried to <i>diverge</i> these two <i>gradient terms by maximising the L2 distance</i> between them</li>
+    <li>Ended the project as we only saw trivial gains over vanilla Decoupled-KD</li>
+  </div>
+</div>
+
+
+
+
+
+<h2 class="section-title">Teaching Experience</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Teaching Fellow - Computer Science</div>
+  <div class="cv-entry-org">Data Structures (CS 202)</div>
+  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-description">
+    <li><i>Co-teaching the data structures course</i> to a class of <i>312 students</i> </li>
+    <li>Conducted <i>weekly tutorials</i> to reinforce the topics covered in lectures </li>
+    <li><i>Managed course logistics</i> including quizzes and exams </li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Adjunct Faculty - Computer Science</div>
+  <div class="cv-entry-org">Masters in AI Bootcamp</div>
+  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-description">
+    <li><i>Lead instructor</i> to a class of 110 incoming graduate students for AI</li>
+    <li>Delivered <i>lectures</i> covering the basics of <i>programming</i> in python, <i>probability theory</i> and <i>multi-variable calculus</i></li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Lead Teaching Assistant - Computer Science</div>
+  <div class="cv-entry-org">Fundamentals of Generative AI (CS 5306)</div>
+  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-description">
+    <li>Collborated with Dr. Agha Ali Raza to <i> redesign his popular graduate level course on generative language models</i></li>
+    <li><i>Revamped programming assingments</i> and introduced a coherent flow - build embedding models, then Smol Llama, LoRA on Smol Llama, and then perform PPO on Smol Llama</li>
+    <li><i>Designed</i> majority of the <i>quizzes and paper reading assignments</i></li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Teaching Assistant - Computer Science</div>
+  <div class="cv-entry-org">Machine Learning (CS 436)</div>
+  <div class="cv-entry-date">Current</div>
+  <div class="cv-entry-description">
+    <li><i>Developed a programming assignment</i> which constrcuted Feed-forward networks from scratch in numpy</li>
+    <li><i>Delivered</i> a seires of <i>highly popular tutorials</i></li>
+  </div>
+</div>
+
+
+<h2 class="section-title">Industry Experience</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Machine Learning Engineer</div>
+  <div class="cv-entry-org">WhichDraft</div>
+  <div class="cv-entry-date">June 2023 - January 2024</div>
+  <div class="cv-entry-description">
+    <li>Established an <i>end-to-end pipeline with OpenAI API</i> to automate legal contract generation using AI powered agents</li>
+    <li>Developed a vanilla agent which <i>automated taxonomy generation by 90%+</i> leading to custom legal contract generation</li>
+    <li>Developed an editor agent to integrate client instructions into generated contracts, <i>enhancing satisfaction by 70%+</i></li>
+    <li>Developed an MVP Agent which enabled contract wide and component specific customizations, <i>boosting user engagement by 52%</i> and <i>reducing support inquiries by 25%</i></li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Machine Learning Engineer</div>
+  <div class="cv-entry-org">Zeta Solutions</div>
+  <div class="cv-entry-date">March 2023 - April 2023</div>
+  <div class="cv-entry-description">
+    <li>Developed a notebook to be used in <i>demonstration of AI agent capabilities</i> using LangChain and GPT-4 API for a class of <i>over 150 students</i></li>
+    <li>Established an agent executor to incorporate memory and instruction recall thus <i>boosting response quality by 40%+</i></li>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-title">Machine Learning Engineer</div>
+  <div class="cv-entry-org">Environ AI</div>
+  <div class="cv-entry-date">January 2023 - February 2023</div>
+  <div class="cv-entry-description">
+    <li>Created a chatbot for navigating a corpus of <i>1 million+ legal documents</i> to facilitate client's green policy decisions</li>
+    <li><i>Improved model throughput by 42%</i> by employing a semantic hashing protocol to shortlist relevant documents</li>
+    <li>Conducted <i>Retrieval Augmented Generation</i> on the shortlisted documents to respond to client queries</li>
+  </div>
+</div>
+
+```

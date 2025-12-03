@@ -14,14 +14,14 @@ website:
     left:
       - text: "About"
         href: about.qmd
-      - text: "Resume"
-        href: files/resume.pdf
+      - text: "CV"
+        href: CV.qmd
       - text: "Blog"
         href: blog/index.qmd
+
 format:
   html:
     theme: cosmo
-    css: styles.css
-
-
-
+    css: 
+      - styles.css
+      - https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css

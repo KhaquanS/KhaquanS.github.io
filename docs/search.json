@@ -18,7 +18,7 @@
     "href": "about.html#professional-experience",
     "title": "About",
     "section": "Professional Experience",
-    "text": "Professional Experience\n\nResearch Lead at City@LUMS (Dec 2024 - Present)\nResearch Lead at CSaLT (Sep 2023 - Present)\nFreelance ML Engineer (Jul 2024 - Aug 2024)\nML Engineer at Whichdraft (Jan 2023 - Jan 2024)\nML Engineer at Data Solutions (Mar 2023 - Apr 2023)\nML Engineer at Enviro AI (Jan 2023 - Feb 2023)\n\nRefer to my Resume for a more detailed overview of my work."
+    "text": "Professional Experience\n\nResearch Lead at City@LUMS (Dec 2024 - Present)\nResearch Lead at CSaLT (Sep 2023 - Present)\nFreelance ML Engineer (Jul 2024 - Aug 2024)\nML Engineer at Whichdraft (Jan 2023 - Jan 2024)\nML Engineer at Data Solutions (Mar 2023 - Apr 2023)\nML Engineer at Enviro AI (Jan 2023 - Feb 2023)\n\nRefer to my CV for a more detailed overview of my work."
   },
   {
     "objectID": "about.html#miscellaneous-intersts",
@@ -103,5 +103,89 @@
     "title": "About",
     "section": "My Research Interests",
     "text": "My Research Interests\n\nModel Compression: It started of with KV cache compression but right now, I am entranced by Knowledge Distillation - the goal is to build a hive mind.\nMechanistic Interpretability: Ever since I came across Neel Nanda’s work, I have been fascinated by our ability to reverse engineer DNNs even as complex as LLMs! Specifically, I am focusing on isolating circuits in large models.\nReasoning LLMs: Currently, to inculcate reasoning in smaller models (students) using large reasoning models (teachers), we do SFT on reasoning traces of teachers or a variant of it.\n\nI am currently working with my research group to unlock a new circuit distillation approach that first isolates and then distills reasoning circuits."
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Muhammad Khaquan",
+    "section": "",
+    "text": "Computer Science Teaching Fellow | LUMS\n    \n    \n      \n         LinkedIn\n      \n      \n         GitHub\n      \n      \n         Google Scholar\n      \n    \n  \n  \n  \n    \n  \n\n\n\nI am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anywhere in the world with good compute :) and even better peers/mentors. Currently, I am serving as a Teaching Fellow (junior faculty position) at the CS department of LUMS, where I lead two research groups—one at CSaLT and one at City Lab.\n\n\n\nEducation\n\n\n  Bachelor of Science in Computer Science\n  Lahore University of Management Sciences (LUMS)\n  September 2021 - July 2025\n\n\nAwards and Honors\n\n\n  Graduated with High Distinction\n  Lahore University of Management Sciences (LUMS)\n  July 2025\n  Among the top-25 people in my batch\n\n\n\n  Dean's Honor List\n  Lahore University of Management Sciences (LUMS)\n  December 2022, December 2023, December 2024\n  Placed on the Dean's Honor List for every semester of my undergraduate degree\n\n\n\n  USEFP High Achiever Award\n  United States Education Foundation Pakistan\n  January 2021\n  Among the highest SAT scores in the country (1560/1600) in my exam cycle\n\n\nResearch Experience\n\n\n   AENets: An AutoEncoder based compression of large networks\n  City@LUMS - Research Lead\n  July 2025 - Present\n  \n    Developed a method to create light-weight hybrid architectures by using large pretrained teachers.\n    Approaching teacher performance on 3 image classification benchmarks and SOTA on OOD  benchmarks at compression ratios of upto 100x.\n    To be published in this month\n  \n\n\n\n\n   ReasonDistill: Distilling Reasoning Neurons\n  CSALT + City@LUMS - Research Lead\n  October 2025 - Present\n  \n    Leading a team of 4 junior researchers trying to distill reasoning into small language models.\n    Proposed a mechanistic approach to distilling reasoning into small LMs\n    Finalised training of a Matryoshka Sparse Autoencoder to construct an overcomplete feature dictionary using intermediate features from a large reasoning model (Deepseek-R1-distill-Llama8B)\n  \n\n\n\n\n  DisDKD: Discriminator based exploration of DKD\n  City@LUMS - Research Lead\n  September 2025 - Present\n  \n    Leading a research group of 3 junior researchers picked from the Advanced Topics in ML course\n    We are trying to inculcate explicit feature alignment in Decoupled-KD\n    Designed a discriminator based approach to align the feature distribution of the hint generator (teacher backbone) with the guided generator (student backbone)\n    Introduced a contrastive component in the discriminator loss to address the mode collapse issue\n    Outperforming FitNets and Decoupled-KD on 3 standard image classification benchmarks\n  \n\n\n\n   DGQA: Dynamic Grouped Query Attention\n  CSALT - Research Intern\n  August 2024 - December 2024\n  \n    Proposed an incremental upgrade to Grouped Query Attention (GQA) by allowing dynamic allocations of groups during uptraining of GQA\n    Showed non-trivial gains across multiple models and benchmarks in ViTs (used ViTs instead of LLMs due to computational constraints)\n    Multiple citations via arxiv\n  \n\n\n\n\n\n   G-DKD: Gradient Decoupled KD\n  City@LUMS - Research Intern\n  September 2024 - January 2025\n  \n    Made an incremental change on top of Decoupled-KD by decoupling even at the gradient level\n    We got the gradient of student target logits in the TCKD loss and non-target logits in the NCKD loss and tried to diverge these two gradient terms by maximising the L2 distance between them\n    Ended the project as we only saw trivial gains over vanilla Decoupled-KD\n  \n\n\n\n\n\n\nTeaching Experience\n\n\n  Teaching Fellow - Computer Science\n  Data Structures (CS 202)\n  Current\n  \n    Co-teaching the data structures course to a class of 312 students \n    Conducted weekly tutorials to reinforce the topics covered in lectures \n    Managed course logistics including quizzes and exams \n  \n\n\n\n  Adjunct Faculty - Computer Science\n  Masters in AI Bootcamp\n  Current\n  \n    Lead instructor to a class of 110 incoming graduate students for AI\n    Delivered lectures covering the basics of programming in python, probability theory and multi-variable calculus\n  \n\n\n\n  Lead Teaching Assistant - Computer Science\n  Fundamentals of Generative AI (CS 5306)\n  Current\n  \n    Collborated with Dr. Agha Ali Raza to  redesign his popular graduate level course on generative language models\n    Revamped programming assingments and introduced a coherent flow - build embedding models, then Smol Llama, LoRA on Smol Llama, and then perform PPO on Smol Llama\n    Designed majority of the quizzes and paper reading assignments\n  \n\n\n\n  Teaching Assistant - Computer Science\n  Machine Learning (CS 436)\n  Current\n  \n    Developed a programming assignment which constrcuted Feed-forward networks from scratch in numpy\n    Delivered a seires of highly popular tutorials\n  \n\n\n\nIndustry Experience\n\n\n  Machine Learning Engineer\n  WhichDraft\n  June 2023 - January 2024\n  \n    Established an end-to-end pipeline with OpenAI API to automate legal contract generation using AI powered agents\n    Developed a vanilla agent which automated taxonomy generation by 90%+ leading to custom legal contract generation\n    Developed an editor agent to integrate client instructions into generated contracts, enhancing satisfaction by 70%+\n    Developed an MVP Agent which enabled contract wide and component specific customizations, boosting user engagement by 52% and reducing support inquiries by 25%\n  \n\n\n\n  Machine Learning Engineer\n  Zeta Solutions\n  March 2023 - April 2023\n  \n    Developed a notebook to be used in demonstration of AI agent capabilities using LangChain and GPT-4 API for a class of over 150 students\n    Established an agent executor to incorporate memory and instruction recall thus boosting response quality by 40%+\n  \n\n\n\n  Machine Learning Engineer\n  Environ AI\n  January 2023 - February 2023\n  \n    Created a chatbot for navigating a corpus of 1 million+ legal documents to facilitate client's green policy decisions\n    Improved model throughput by 42% by employing a semantic hashing protocol to shortlist relevant documents\n    Conducted Retrieval Augmented Generation on the shortlisted documents to respond to client queries"
+  },
+  {
+    "objectID": "CV.html#muhammad-khaquan",
+    "href": "CV.html#muhammad-khaquan",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "[Add your education details here]\n\n\n\n[Add your research experience here]\n\n\n\n\nTeaching Fellow, LUMS Computer Science Department (Current)\nResearch Lead, City@LUMS (Dec 2024 - Present)\nResearch Lead, CSaLT (Sep 2023 - Present)\nFreelance ML Engineer (Jul 2024 - Aug 2024)\nML Engineer, Whichdraft (Jan 2023 - Jan 2024)\nML Engineer, Data Solutions (Mar 2023 - Apr 2023)\nML Engineer, Enviro AI (Jan 2023 - Feb 2023)\n\n\n\n\n[Add your publications here]\n\n\n\n[Add your technical skills here]\n\n\n\n[Add any awards here]"
+  },
+  {
+    "objectID": "CV.html#about",
+    "href": "CV.html#about",
+    "title": "Muhammad Khaquan",
+    "section": "About",
+    "text": "About\nI am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities. Currently serving as a Teaching Fellow at the CS department of LUMS, I lead research in Knowledge Distillation and Mechanistic Interpretability."
+  },
+  {
+    "objectID": "CV.html#education",
+    "href": "CV.html#education",
+    "title": "Muhammad Khaquan",
+    "section": "Education",
+    "text": "Education\n\n\nBachelor of Science in Computer Science\n\n\nLahore University of Management Sciences (LUMS)\n\n\n[Add graduation year]"
+  },
+  {
+    "objectID": "CV.html#research-interests",
+    "href": "CV.html#research-interests",
+    "title": "Muhammad Khaquan",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nModel Compression: Knowledge Distillation, KV cache compression, building hive minds\nMechanistic Interpretability: Reverse engineering DNNs, isolating circuits in large models\nReasoning LLMs: Circuit distillation approaches for reasoning in smaller models"
+  },
+  {
+    "objectID": "CV.html#research-experience",
+    "href": "CV.html#research-experience",
+    "title": "Muhammad Khaquan",
+    "section": "Research Experience",
+    "text": "Research Experience\n\n\nResearch Lead\n\n\nCity@LUMS\n\n\nDecember 2024 - Present\n\nWorking on circuit distillation approaches for reasoning LLMs.\n\n\n\nResearch Lead\n\n\nCSaLT (Computer Science and Learning Technologies Lab)\n\n\nSeptember 2023 - Present\n\nLeading research on Knowledge Distillation and isolating knowledge circuits in teacher models."
+  },
+  {
+    "objectID": "CV.html#professional-experience",
+    "href": "CV.html#professional-experience",
+    "title": "Muhammad Khaquan",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\n\nTeaching Fellow (Junior Faculty)\n\n\nLUMS Computer Science Department\n\n\nCurrent\n\nCo-teaching data structures to 300+ students. Previously taught MS-AI bootcamp for incoming graduate students.\n\n\n\nFreelance ML Engineer\n\n\nJuly 2024 - August 2024\n\n\n\n\nML Engineer\n\n\nWhichdraft\n\n\nJanuary 2023 - January 2024\n\n\n\n\nML Engineer\n\n\nData Solutions\n\n\nMarch 2023 - April 2023\n\n\n\n\nML Engineer\n\n\nEnviro AI\n\n\nJanuary 2023 - February 2023"
+  },
+  {
+    "objectID": "CV.html#publications",
+    "href": "CV.html#publications",
+    "title": "Muhammad Khaquan",
+    "section": "Publications",
+    "text": "Publications\n[Add your publications here]"
+  },
+  {
+    "objectID": "CV.html#skills",
+    "href": "CV.html#skills",
+    "title": "Muhammad Khaquan",
+    "section": "Skills",
+    "text": "Skills\nProgramming Languages: [Add languages]\nFrameworks & Tools: [Add frameworks]\nResearch Areas: Knowledge Distillation, Mechanistic Interpretability, Model Compression"
+  },
+  {
+    "objectID": "CV.html#awards-and-honors",
+    "href": "CV.html#awards-and-honors",
+    "title": "Muhammad Khaquan",
+    "section": "Awards and Honors",
+    "text": "Awards and Honors\n[Add any awards and honors here]"
+  },
+  {
+    "objectID": "CV.html#interests",
+    "href": "CV.html#interests",
+    "title": "Muhammad Khaquan",
+    "section": "Interests",
+    "text": "Interests\n\nClassical music (Chopin, Ustad Farid Ayaz’s Qawwalis)\nHistory and non-fiction reading\nBoxing\nCaring for cats"
+  },
+  {
+    "objectID": "CV.html#research-experience-1",
+    "href": "CV.html#research-experience-1",
+    "title": "Muhammad Khaquan",
+    "section": "Research Experience",
+    "text": "Research Experience\n\n\nResearch Lead\n\n\nCity@LUMS\n\n\nDecember 2024 - Present\n\nWorking on circuit distillation approaches for reasoning LLMs.\n\n\n\nResearch Lead\n\n\nCSaLT (Computer Science and Learning Technologies Lab)\n\n\nSeptember 2023 - Present\n\nLeading research on Knowledge Distillation and isolating knowledge circuits in teacher models."
   }
 ]

@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: files/profile.jpg
+image: files/xanadu.jpg
 about:
   template: solana
   image-shape: round
@@ -13,8 +13,8 @@ about:
       text: Github
       href: https://github.com/KhaquanS/
     - icon: book
-      text: Resume
-      href: files/resume.pdf
+      text: CV
+      href: CV.qmd
 ---
 
 <style>
@@ -62,7 +62,7 @@ ___
 - ML Engineer at Data Solutions (Mar 2023 - Apr 2023)
 - ML Engineer at Enviro AI (Jan 2023 - Feb 2023)
 
-Refer to my [Resume](files/resume.pdf) for a more detailed overview of my work.
+Refer to my [CV](CV.qmd) for a more detailed overview of my work.
 
 ___
 

@@ -1,5 +1,5 @@
 ---
-image: files/profile.jpg
+image: files/grad.jpg
 about:
   template: jolla
 title-block-banner: true
