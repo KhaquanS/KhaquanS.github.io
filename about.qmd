@@ -53,19 +53,6 @@ I am currently working with my research group to unlock a new *circuit distillat
 
 ___
 
-## Professional Experience
-
-- Research Lead at City@LUMS (Dec 2024 - Present)
-- Research Lead at CSaLT (Sep 2023 - Present)
-- Freelance ML Engineer (Jul 2024 - Aug 2024)
-- ML Engineer at Whichdraft (Jan 2023 - Jan 2024)
-- ML Engineer at Data Solutions (Mar 2023 - Apr 2023)
-- ML Engineer at Enviro AI (Jan 2023 - Feb 2023)
-
-Refer to my [CV](CV.qmd) for a more detailed overview of my work.
-
-___
-
 ## Miscellaneous Intersts
 
 Although it may not seem like it, but I do have a life outside of my office. When free, I enjoy
