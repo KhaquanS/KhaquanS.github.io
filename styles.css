@@ -4,10 +4,73 @@
   --muted: #62708a;
   --line: #dce3ee;
   --surface: #f7f9fc;
+  --page: #ffffff;
+  --card: #ffffff;
   --blue: #2165d7;
   --violet: #7651d3;
   --teal: #0e8b85;
 }
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #ecf2ff;
+  --muted: #aab8cf;
+  --line: #2a3953;
+  --surface: #151f31;
+  --page: #0c1320;
+  --card: #111b2c;
+  --blue: #77a7ff;
+  --violet: #b49aff;
+  --teal: #48c9bf;
+}
+
+body {
+  background: var(--page);
+  color: var(--ink);
+}
+
+body .navbar {
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--page) 94%, transparent) !important;
+}
+
+body .navbar .navbar-brand,
+body .navbar .nav-link,
+body .navbar .nav-link.active,
+body .navbar .nav-link:hover,
+body .quarto-title,
+body h1, body h2, body h3 {
+  color: var(--ink);
+}
+
+body .navbar .nav-link { color: var(--muted); }
+body a { color: var(--blue); }
+
+.theme-toggle {
+  position: fixed;
+  z-index: 1035;
+  right: 1.15rem;
+  bottom: 1.15rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .58rem .8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  box-shadow: 0 8px 24px rgb(15 23 42 / 16%);
+  color: var(--ink);
+  font: 650 .78rem/1 system-ui, sans-serif;
+  letter-spacing: .02em;
+}
+
+.theme-toggle:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+  transform: translateY(-1px);
+}
+
+.theme-toggle-icon { font-size: 1rem; line-height: 1; }
 
 /* About */
 .about-contents {
@@ -96,7 +159,7 @@
   padding: .8rem 1rem .9rem;
   border: 1px solid var(--line);
   border-radius: .55rem;
-  background: white;
+  background: var(--card);
 }
 
 .timeline-kind, .card-number {
@@ -134,7 +197,7 @@
   padding: 1.25rem;
   border: 1px solid var(--line);
   border-radius: .65rem;
-  background: white;
+  background: var(--card);
 }
 
 .feature-card {
@@ -165,6 +228,27 @@
 .interests-grid { margin-bottom: 2rem; }
 .interests-grid article { background: var(--surface); }
 .interests-grid a { color: var(--blue); }
+
+html[data-theme="dark"] .timeline-marker { border-color: var(--page); }
+html[data-theme="dark"] .timeline-entry.current .timeline-marker { box-shadow: 0 0 0 2px var(--blue), 0 0 0 6px #203b67; }
+html[data-theme="dark"] .quarto-title-banner,
+html[data-theme="dark"] .quarto-title-block { background-color: var(--page); }
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .quarto-post,
+html[data-theme="dark"] .dropdown-menu,
+html[data-theme="dark"] .page-link,
+html[data-theme="dark"] .table {
+  border-color: var(--line);
+  background-color: var(--card);
+  color: var(--ink);
+}
+html[data-theme="dark"] .quarto-post .listing-title a,
+html[data-theme="dark"] .quarto-post .listing-description,
+html[data-theme="dark"] .quarto-post .listing-date,
+html[data-theme="dark"] .dropdown-item { color: var(--ink); }
+html[data-theme="dark"] .dropdown-item:hover { background: var(--surface); }
+html[data-theme="dark"] .navbar-toggler { border-color: var(--line); }
+html[data-theme="dark"] .navbar-toggler-icon { filter: invert(1); }
 
 @media (max-width: 700px) {
   .feature-grid, .interests-grid { grid-template-columns: 1fr; }

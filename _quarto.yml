@@ -22,6 +22,8 @@ website:
 format:
   html:
     theme: cosmo
+    include-in-header: theme-init.html
+    include-after-body: theme-toggle.html
     css: 
       - styles.css
       - https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css

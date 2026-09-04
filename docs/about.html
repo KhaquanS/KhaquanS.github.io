@@ -66,6 +66,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+  (() => {
+    const savedTheme = localStorage.getItem("theme");
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.dataset.theme = savedTheme || systemTheme;
+  })();
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -406,6 +413,33 @@ Tracing causal links between an agent’s behaviour and reward hacking in reinfo
   </div>
 </div>
  <!-- /main -->
+<button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+  <span class="theme-toggle-icon" aria-hidden="true"></span>
+  <span class="theme-toggle-label"></span>
+</button>
+<script>
+  (() => {
+    const button = document.querySelector(".theme-toggle");
+    const label = button.querySelector(".theme-toggle-label");
+    const icon = button.querySelector(".theme-toggle-icon");
+
+    const render = () => {
+      const dark = document.documentElement.dataset.theme === "dark";
+      label.textContent = dark ? "Light" : "Dark";
+      icon.textContent = dark ? "☀" : "☾";
+      button.setAttribute("aria-label", `Switch to ${dark ? "light" : "dark"} mode`);
+    };
+
+    button.addEventListener("click", () => {
+      const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("theme", next);
+      render();
+    });
+
+    render();
+  })();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -98,6 +98,13 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script>
+  (() => {
+    const savedTheme = localStorage.getItem("theme");
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.dataset.theme = savedTheme || systemTheme;
+  })();
+</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -216,7 +223,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1725735600000" data-listing-file-modified-sort="1725816066384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1539">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1725768000000" data-listing-file-modified-sort="1725816066384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1539">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../blog/posts/2024-09-08-Sparse-Autoencoder/index.html" class="no-external">Implementing Sparse Autoencoders from Scratch</a>
@@ -244,6 +251,33 @@ Sep 8, 2024
 No matching items
 </div>
 </div></main> <!-- /main -->
+<button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+  <span class="theme-toggle-icon" aria-hidden="true"></span>
+  <span class="theme-toggle-label"></span>
+</button>
+<script>
+  (() => {
+    const button = document.querySelector(".theme-toggle");
+    const label = button.querySelector(".theme-toggle-label");
+    const icon = button.querySelector(".theme-toggle-icon");
+
+    const render = () => {
+      const dark = document.documentElement.dataset.theme === "dark";
+      label.textContent = dark ? "Light" : "Dark";
+      icon.textContent = dark ? "☀" : "☾";
+      button.setAttribute("aria-label", `Switch to ${dark ? "light" : "dark"} mode`);
+    };
+
+    button.addEventListener("click", () => {
+      const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("theme", next);
+      render();
+    });
+
+    render();
+  })();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

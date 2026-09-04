@@ -123,6 +123,13 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script>
+  (() => {
+    const savedTheme = localStorage.getItem("theme");
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.dataset.theme = savedTheme || systemTheme;
+  })();
+</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -155,6 +162,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -179,8 +187,8 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../files/resume.pdf"> 
-<span class="menu-text">Resume</span></a>
+    <a class="nav-link" href="../../../CV.html">
+<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../blog/index.html"> 
@@ -2129,6 +2137,33 @@ Epoch: 80/80 -- Train Loss: 0.6249
 Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E Hinton. 2012. <span>“Imagenet Classification with Deep Convolutional Neural Networks.”</span> <em>Advances in Neural Information Processing Systems</em> 25.
 </div>
 </div></section></div></main> <!-- /main -->
+<button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+  <span class="theme-toggle-icon" aria-hidden="true"></span>
+  <span class="theme-toggle-label"></span>
+</button>
+<script>
+  (() => {
+    const button = document.querySelector(".theme-toggle");
+    const label = button.querySelector(".theme-toggle-label");
+    const icon = button.querySelector(".theme-toggle-icon");
+
+    const render = () => {
+      const dark = document.documentElement.dataset.theme === "dark";
+      label.textContent = dark ? "Light" : "Dark";
+      icon.textContent = dark ? "☀" : "☾";
+      button.setAttribute("aria-label", `Switch to ${dark ? "light" : "dark"} mode`);
+    };
+
+    button.addEventListener("click", () => {
+      const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("theme", next);
+      render();
+    });
+
+    render();
+  })();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

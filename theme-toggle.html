@@ -1,0 +1,27 @@
+<button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+  <span class="theme-toggle-icon" aria-hidden="true"></span>
+  <span class="theme-toggle-label"></span>
+</button>
+<script>
+  (() => {
+    const button = document.querySelector(".theme-toggle");
+    const label = button.querySelector(".theme-toggle-label");
+    const icon = button.querySelector(".theme-toggle-icon");
+
+    const render = () => {
+      const dark = document.documentElement.dataset.theme === "dark";
+      label.textContent = dark ? "Light" : "Dark";
+      icon.textContent = dark ? "☀" : "☾";
+      button.setAttribute("aria-label", `Switch to ${dark ? "light" : "dark"} mode`);
+    };
+
+    button.addEventListener("click", () => {
+      const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("theme", next);
+      render();
+    });
+
+    render();
+  })();
+</script>
