@@ -1,1 +1,180 @@
-/* css styles */
+/* Site-wide details */
+:root {
+  --ink: #172033;
+  --muted: #62708a;
+  --line: #dce3ee;
+  --surface: #f7f9fc;
+  --blue: #2165d7;
+  --violet: #7651d3;
+  --teal: #0e8b85;
+}
+
+/* About */
+.about-contents {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: left !important;
+}
+
+.about-intro-note {
+  margin: 2rem 0 3.25rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--blue);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 1.05rem;
+}
+
+.about-intro-note span {
+  display: block;
+  margin-bottom: .2rem;
+  color: var(--blue);
+  font-size: .73rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.about-contents h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  color: var(--ink);
+  font-weight: 700;
+  letter-spacing: -.02em;
+}
+
+.career-timeline {
+  position: relative;
+  margin: .5rem 0 3rem;
+  padding: .25rem 0;
+}
+
+.career-timeline::before {
+  position: absolute;
+  top: 1.1rem;
+  bottom: 1.1rem;
+  left: 8.1rem;
+  width: 1px;
+  background: var(--line);
+  content: "";
+}
+
+.timeline-entry {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7rem 2.2rem 1fr;
+  gap: 0;
+  min-height: 6.1rem;
+}
+
+.timeline-date {
+  margin: .48rem 1rem 0 0;
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 650;
+  line-height: 1.3;
+  text-align: right;
+}
+
+.timeline-marker {
+  z-index: 1;
+  width: .72rem;
+  height: .72rem;
+  margin: .53rem auto 0;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: var(--blue);
+  box-shadow: 0 0 0 2px var(--blue);
+}
+
+.timeline-entry.research .timeline-marker { background: var(--violet); box-shadow: 0 0 0 2px var(--violet); }
+.timeline-entry.teaching .timeline-marker { background: var(--teal); box-shadow: 0 0 0 2px var(--teal); }
+.timeline-entry.current .timeline-marker { box-shadow: 0 0 0 2px var(--blue), 0 0 0 6px #dceaff; }
+
+.timeline-card {
+  margin: 0 0 1rem;
+  padding: .8rem 1rem .9rem;
+  border: 1px solid var(--line);
+  border-radius: .55rem;
+  background: white;
+}
+
+.timeline-kind, .card-number {
+  margin: 0 0 .25rem;
+  color: var(--blue);
+  font-size: .68rem;
+  font-weight: 750;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.research .timeline-kind { color: var(--violet); }
+.teaching .timeline-kind { color: var(--teal); }
+
+.timeline-card h3, .feature-card h3, .teaching-list h3, .interests-grid h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.timeline-card p:last-child, .feature-card p:last-child, .teaching-list p, .interests-grid p {
+  margin: .25rem 0 0;
+  color: var(--muted);
+  font-size: .93rem;
+  line-height: 1.55;
+}
+
+.feature-grid, .interests-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.feature-card, .interests-grid article {
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: .65rem;
+  background: white;
+}
+
+.feature-card {
+  min-height: 100%;
+  border-top: 3px solid var(--blue);
+}
+
+.feature-card:nth-child(2) { border-top-color: var(--violet); }
+.feature-card:nth-child(3) { border-top-color: var(--teal); }
+.feature-card:nth-child(2) .card-number { color: var(--violet); }
+.feature-card:nth-child(3) .card-number { color: var(--teal); }
+
+.teaching-list {
+  margin-bottom: 3rem;
+  border-top: 1px solid var(--line);
+}
+
+.teaching-list article {
+  display: grid;
+  grid-template-columns: minmax(14rem, .8fr) 2fr;
+  gap: 1.5rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.teaching-list p { margin: 0; }
+
+.interests-grid { margin-bottom: 2rem; }
+.interests-grid article { background: var(--surface); }
+.interests-grid a { color: var(--blue); }
+
+@media (max-width: 700px) {
+  .feature-grid, .interests-grid { grid-template-columns: 1fr; }
+  .teaching-list article { grid-template-columns: 1fr; gap: .35rem; }
+}
+
+@media (max-width: 480px) {
+  .career-timeline::before { left: .37rem; }
+  .timeline-entry { grid-template-columns: 1.1rem 1fr; gap: .75rem; }
+  .timeline-date { grid-column: 2; grid-row: 1; margin: 0; text-align: left; }
+  .timeline-marker { grid-column: 1; grid-row: 1 / span 2; margin-top: .22rem; }
+  .timeline-card { grid-column: 2; grid-row: 2; }
+}

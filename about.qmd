@@ -4,7 +4,7 @@ image: files/xanadu.jpg
 about:
   template: solana
   image-shape: round
-  image-width: 20em
+  image-width: 14em
   links:
     - icon: linkedin
       text: LinkedIn
@@ -17,56 +17,139 @@ about:
       href: CV.qmd
 ---
 
-<style>
-.about-contents {
-  text-align: left !important;
-}
-</style>
+I am pursuing an MS in Computer Science and Engineering at the University of Michigan, Ann Arbor, after completing my BS in Computer Science at the Lahore University of Management Sciences (LUMS) in 2025. From 2025–26, I also served as a Teaching Fellow (junior faculty) in the LUMS CS department.
 
-I am a CS undergraduate from LUMS aspiring to pursue Graduate opportunities anywhere in the world with good compute :) and even better peers/mentors.
-
-Currently, I am serving as a Teaching Fellow (junior faculty position) at the CS department of LUMS. 
-
-My day usually has me acting on two fronts: 
-
-**Researching**: I lead two research groups, one at CSALT and one at City Lab. Underneath the glamour, I sit on my PC and make slightly non-trivial attempts at answering
-
-*How can we distill knowledge from Teacher to Student in a low loss manner? Can we isolate knowledge circuits in Teachers and distill these circuits into Students?*
-
-**Teaching**: I currently co-teach the data-structures course to a class of over 300 students (yes I know thats a lot of students). Previously, I taught the MS-AI bootcamp, a crash-course for going over programming basics and mathematical foundations of AI for incoming graduate students (most of them were from non-technical backgrounds).
-
-___
-
-## My Research Interests
-
-- **Model Compression:**
-It started of with *KV cache compression* but right now, I am entranced by *Knowledge Distillation* - the goal is to build a *hive mind*.
-
-- **Mechanistic Interpretability:**
-Ever since I came across [Neel Nanda's](https://www.neelnanda.io/) work, I have been fascinated by our ability to *reverse engineer* DNNs even as complex as LLMs! Specifically, I am focusing on *isolating circuits* in large models.
-
-- **Reasoning LLMs:**
-Currently, to inculcate reasoning in smaller models (students) using large reasoning models (teachers), we do *SFT on reasoning traces* of teachers or a variant of it.
-<div style="text-align: center;">
-I am currently working with my research group to unlock a new *circuit distillation approach* that first *isolates and then distills reasoning circuits*.
+<div class="about-intro-note">
+<span>Current focus</span>
+Making compact reasoning models more capable, interpretable, and dependable.
 </div>
 
-___
+## Path so far
 
-## Miscellaneous Intersts
+<div class="career-timeline" role="list" aria-label="Education and experience timeline">
+<article class="timeline-entry education" role="listitem">
+<p class="timeline-date">Sep 2021 — Jul 2025</p>
+<div class="timeline-marker"></div>
+<div class="timeline-card">
+<p class="timeline-kind">Education</p>
+<h3>BS Computer Science</h3>
+<p>Lahore University of Management Sciences</p>
+</div>
+</article>
+<article class="timeline-entry research" role="listitem">
+<p class="timeline-date">Sep 2023 — May 2024</p>
+<div class="timeline-marker"></div>
+<div class="timeline-card">
+<p class="timeline-kind">Research</p>
+<h3>Research Intern</h3>
+<p>CSaLT, LUMS</p>
+</div>
+</article>
+<article class="timeline-entry research" role="listitem">
+<p class="timeline-date">Jun 2024 — Jul 2026</p>
+<div class="timeline-marker"></div>
+<div class="timeline-card">
+<p class="timeline-kind">Research</p>
+<h3>Research Lead</h3>
+<p>CSaLT, LUMS</p>
+</div>
+</article>
+<article class="timeline-entry research" role="listitem">
+<p class="timeline-date">Jan 2025 — Jul 2026</p>
+<div class="timeline-marker"></div>
+<div class="timeline-card">
+<p class="timeline-kind">Research</p>
+<h3>Research Lead</h3>
+<p>City @ LUMS</p>
+</div>
+</article>
+<article class="timeline-entry education" role="listitem">
+<p class="timeline-date">Jul 2025</p>
+<div class="timeline-marker"></div>
+<div class="timeline-card">
+<p class="timeline-kind">Milestone</p>
+<h3>Completed BS Computer Science</h3>
+<p>Lahore University of Management Sciences</p>
+</div>
+</article>
+<article class="timeline-entry teaching" role="listitem">
+<p class="timeline-date">Jul 2025 — Jul 2026</p>
+<div class="timeline-marker"></div>
+<div class="timeline-card">
+<p class="timeline-kind">Teaching</p>
+<h3>Teaching Fellow</h3>
+<p>LUMS · Junior Faculty</p>
+</div>
+</article>
+<article class="timeline-entry education current" role="listitem">
+<p class="timeline-date">Sep 2026 — Present</p>
+<div class="timeline-marker"></div>
+<div class="timeline-card">
+<p class="timeline-kind">Education</p>
+<h3>MS Computer Science & Engineering</h3>
+<p>University of Michigan, Ann Arbor</p>
+</div>
+</article>
+</div>
 
-Although it may not seem like it, but I do have a life outside of my office. When free, I enjoy
+## Research
 
-- Listening to classical music (be it Chopin's tristesse or Ustad Farid Ayaz's Qawwalis).
-- Reading non-fiction (especially history. I love history)
-- Unsuccessfully trying to emulate Artur Beterbiev in the boxing gym
-- Enabling the gluttony of my cats
+<div class="feature-grid">
+  <article class="feature-card">
+    <p class="card-number">01</p>
+    <h3>Mechanistic distillation</h3>
+    <p>Leading a joint CSaLT and City @ LUMS effort to distill reasoning from Qwen-3.5-4B into Qwen-3.5-2B. Our student currently outperforms base knowledge distillation on ARC-C, GSM8K, MMLU, MATH-500, and HellaSwag.</p>
+  </article>
+  <article class="feature-card">
+    <p class="card-number">02</p>
+    <h3>Code evaluation</h3>
+    <p>Building a code benchmark that evaluates LLMs through novel games—testing whether models can reason, implement, and adapt beyond familiar problem sets.</p>
+  </article>
+  <article class="feature-card">
+    <p class="card-number">03</p>
+    <h3>Reward hacking in RLVR</h3>
+    <p>Searching for causal explanations of reward hacking during reinforcement learning with verifiable rewards.</p>
+  </article>
+</div>
 
-___
+## Teaching
 
-## What's Ahead for Me
+<div class="teaching-list">
+  <article>
+    <h3>CS-200 · Fundamentals of Object-Oriented Programming</h3>
+    <p>Co-taught 400 first-year students; designed and managed 14 C/C++ labs across two sections, three programming assignments, lecture tutorials, and assessments including two midterms and a final.</p>
+  </article>
+  <article>
+    <h3>CS-202 · Data Structures</h3>
+    <p>Co-taught 300 sophomores in C++, delivered weekly lecture tutorials, and designed and graded two midterms and the final exam.</p>
+  </article>
+  <article>
+    <h3>MS AI Bootcamp</h3>
+    <p>Taught 100 incoming graduate students from diverse backgrounds: Python and NumPy, probability foundations, and a multivariable-calculus refresher.</p>
+  </article>
+  <article>
+    <h3>CS-5306 · Generative AI</h3>
+    <p>Lead TA for a graduate course, revamping its curriculum and programming assignments: LSTMs for word embeddings, a SmolLM built from scratch, and PEFT with LoRA and QLoRA.</p>
+  </article>
+  <article>
+    <h3>CS-436 · Machine Learning</h3>
+    <p>Teaching assistant for the undergraduate machine learning course.</p>
+  </article>
+</div>
 
-In the upcoming days, I will be pre-occupied with the following:
+## Interests
 
-- Filling out applications to graduate schools 
-- Working with both of my research groups to hopefully cement our findings by the end of December 
+<div class="interests-grid">
+  <article>
+    <h3>Distillation</h3>
+    <p>Isolating select teacher capabilities and amplifying them in smaller student models.</p>
+  </article>
+  <article>
+    <h3>Mechanistic interpretability</h3>
+    <p>Exploring weight-based interpretability beyond SAEs, inspired by <a href="https://www.goodfire.com/research/interpreting-lm-parameters">Goodfire’s work on interpreting LM parameters</a>.</p>
+  </article>
+  <article>
+    <h3>RLVR</h3>
+    <p>Tracing causal links between an agent’s behaviour and reward hacking in reinforcement learning with verifiable rewards.</p>
+  </article>
+</div>

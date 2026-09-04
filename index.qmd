@@ -6,7 +6,9 @@ title-block-banner: true
 ---
 
 # Welcome!
-This is my thought dump where I will share the knowledge that I acquire on my road to enabling, smaller, smarter, and faster Artificial Intelligence.
+I try to make smaller, more capable models that do not misbehave (at least I try to do so).
+
+Currently dabbling in making code benchmarks too.
 
 To learn more about me, refer to the [About Page](about.qmd).
 
