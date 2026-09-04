@@ -241,7 +241,7 @@ I am an MS Computer Science and Engineering student at the University of Michiga
 <h2 class="section-title">Research Experience</h2>
 
 <div class="cv-entry">
-  <div class="cv-entry-title"><a href="https://github.com/samiemirza/KnowledgeDistillation" target="_blank">ReasonDistill: Mechanistic Distillation of Reasoning</a></div>
+  <div class="cv-entry-title"><a href="https://github.com/KhaquanS/Reasoning-Distillation/tree/awesomeReasonDistill" target="_blank">ReasonDistill: Mechanistic Distillation of Reasoning</a></div>
   <div class="cv-entry-org">CSaLT + City @ LUMS - Research Lead</div>
   <div class="cv-entry-date">October 2025 - Present</div>
   <div class="cv-entry-description">
