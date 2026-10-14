@@ -465,13 +465,24 @@ I am an MS Computer Science and Engineering student at the University of Michiga
 <h2 class="section-title anchored">Research Experience</h2>
 
 <div class="cv-entry">
+  <div class="cv-entry-title">Research Assistant</div>
+  <div class="cv-entry-org">Touchstone AI Lab - GameScientist</div>
+  <div class="cv-entry-date">August 2026 - Present</div>
+  <div class="cv-entry-description">
+    <li>Built a <i>Balatro integration and native macOS interaction layer</i> for a vision-language-model gameplay benchmark using Python, PyObjC, ScreenCaptureKit, and Quartz; added <i>two evaluation tasks</i> and validated 1280×720 screen capture with mouse and keyboard control.</li>
+    <li>Defined benchmark requirements and guided technical decisions, directing Codex-assisted implementation and debugging through observed behavior, corrective feedback, and regression testing.</li>
+    <li>Built a screenshot-gated evaluation harness for <i>three ante checkpoints</i> with <i>21 checkpoint/provider regression tests</i>, separating live operator checks, offline tests, and model-driven gameplay.</li>
+  </div>
+</div>
+
+<div class="cv-entry">
   <div class="cv-entry-title"><a href="https://github.com/KhaquanS/Reasoning-Distillation/tree/awesomeReasonDistill" target="_blank">ReasonDistill: Mechanistic Distillation of Reasoning</a></div>
   <div class="cv-entry-org">CSaLT + City @ LUMS - Research Lead</div>
   <div class="cv-entry-date">October 2025 - Present</div>
   <div class="cv-entry-description">
-    <li>Leading a joint effort to distill reasoning capability from a <i>Qwen-3.5-4B teacher</i> into a <i>Qwen-3.5-2B student</i>.</li>
-    <li>Developing a <i>mechanistic distillation</i> approach that isolates reasoning-relevant model components before transfer.</li>
-    <li>Current runs outperform <i>off-policy distillation by up to 2%</i> on ARC-C, GSM8K, MMLU, MATH-500, and HellaSwag.</li>
+    <li>Led a joint effort to transfer reasoning capability from a <i>Qwen-3.5-4B teacher</i> to a <i>Qwen-3.5-2B student</i> using mechanistic distillation.</li>
+    <li>Isolated reasoning-relevant model components before transfer, replacing broad off-policy supervision with targeted component-level training.</li>
+    <li>Improved performance by <i>up to 2%</i> over off-policy distillation on ARC-C, GSM8K, MMLU, MATH-500, and HellaSwag.</li>
   </div>
 </div>
 
@@ -493,8 +504,9 @@ I am an MS Computer Science and Engineering student at the University of Michiga
   <div class="cv-entry-org">City @ LUMS - Research Lead</div>
   <div class="cv-entry-date">July 2025 - Present</div>
   <div class="cv-entry-description">
-    <li>Developed lightweight hybrid architectures using large pretrained teachers.</li>
-    <li>Approaching teacher performance on three image-classification benchmarks and SOTA OOD results at compression ratios up to 100×.</li>
+    <li>Developed lightweight hybrid architectures that compress pretrained teacher features with autoencoders, comparing them against logits-based distillation and FitNets.</li>
+    <li>Improved accuracy by <i>10-20 percentage points</i> over baselines on selected unseen VLCS and OfficeHome domains while evaluating transformation invariance, teacher size, and latent sparsity.</li>
+    <li>Reached state-of-the-art out-of-distribution results at compression ratios up to <i>100×</i> across three image-classification benchmarks.</li>
   </div>
 </div>
 
@@ -503,9 +515,9 @@ I am an MS Computer Science and Engineering student at the University of Michiga
   <div class="cv-entry-org">CSALT - Research Intern</div>
   <div class="cv-entry-date">August 2024 - December 2024</div>
   <div class="cv-entry-description">
-    <li>Proposed an <i>incremental upgrade</i> to Grouped Query Attention (GQA) by allowing <i>dynamic allocations of groups during uptraining</i> of GQA</li>
-    <li>Showed non-trivial gains across multiple models and benchmarks in ViTs (used ViTs instead of LLMs due to computational constraints)</li>
-    <li><i>Multiple citations</i> via arxiv</li>
+    <li>Designed a dynamic upgrade to Grouped Query Attention that reallocates query groups during uptraining based on key-head norms.</li>
+    <li>Raised ViT-L accuracy from <i>67.73% to 75.83%</i> on Tiny ImageNet and evaluated three model sizes across four datasets.</li>
+    <li>Co-first-authored <i>Beyond Uniform Query Distribution: Key-Driven Grouped Query Attention</i>, an arXiv preprint.</li>
   </div>
 </div>
 
@@ -590,10 +602,10 @@ I am an MS Computer Science and Engineering student at the University of Michiga
   <div class="cv-entry-org">WhichDraft</div>
   <div class="cv-entry-date">June 2023 - January 2024</div>
   <div class="cv-entry-description">
-    <li>Established an <i>end-to-end pipeline with OpenAI API</i> to automate legal contract generation using AI powered agents</li>
-    <li>Developed a vanilla agent which <i>automated taxonomy generation by 90%+</i> leading to custom legal contract generation</li>
-    <li>Developed an editor agent to integrate client instructions into generated contracts, <i>enhancing satisfaction by 70%+</i></li>
-    <li>Developed an MVP Agent which enabled contract wide and component specific customizations, <i>boosting user engagement by 52%</i> and <i>reducing support inquiries by 25%</i></li>
+    <li>Built and shipped an AI agent for legal contract creation and editing with the <i>OpenAI API</i>, automating <i>90%+</i> of contract-taxonomy generation and testing correctness across <i>12 legal-document classes</i>.</li>
+    <li>Reduced formatting errors by <i>over 60%</i> on a 100-output challenge suite through prompt engineering, agent-response debugging, and memory for accepted formats.</li>
+    <li>Developed an editor agent that incorporated client instructions into generated contracts, improving reported satisfaction by <i>70%+</i>.</li>
+    <li>Built an MVP agent for contract-wide and component-specific customization, increasing user engagement by <i>52%</i> and reducing support inquiries by <i>25%</i>.</li>
   </div>
 </div>
 
@@ -612,9 +624,9 @@ I am an MS Computer Science and Engineering student at the University of Michiga
   <div class="cv-entry-org">Environ AI</div>
   <div class="cv-entry-date">January 2023 - February 2023</div>
   <div class="cv-entry-description">
-    <li>Created a chatbot for navigating a corpus of <i>1 million+ legal documents</i> to facilitate client's green policy decisions</li>
-    <li><i>Improved model throughput by 42%</i> by employing a semantic hashing protocol to shortlist relevant documents</li>
-    <li>Conducted <i>Retrieval Augmented Generation</i> on the shortlisted documents to respond to client queries</li>
+    <li>Built a chatbot for green-policy research over a corpus of <i>1M+ legal documents</i> using semantic search and retrieval-augmented generation.</li>
+    <li>Increased retrieval throughput by <i>42%</i> with semantic hashing to shortlist relevant documents, benchmarking mean latency across <i>200+ synthetic queries</i> with Python's <code>time</code> module.</li>
+    <li>Generated responses from the shortlisted documents with <i>retrieval-augmented generation</i>, connecting retrieved evidence to client queries.</li>
   </div>
 </div>
 
